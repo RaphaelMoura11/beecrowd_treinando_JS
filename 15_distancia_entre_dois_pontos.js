@@ -1,4 +1,6 @@
 var input = require("fs").readFileSync("stdin", "utf8");
 
-var [AX, BX] = input.split(" ").map(item => parseFloat(item));
-var [AY, BY] = input.split(" ").map(item => parseFloat(item));
+var [x1, y1] = input.split(" ").map(item => parseFloat(item));
+var [x2, y2] = input.split(" ").map(item => parseFloat(item));
+
+
